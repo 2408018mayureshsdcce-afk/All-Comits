@@ -18,12 +18,13 @@
   const statusLabel = s => ({ open: 'Registrations open', closed: 'Closed', soldout: 'Sold out' }[s] || s);
   const comps = () => TN.competitions || [];
 
-  // Rules are stored as plain lines. A plain line is a numbered rule (or round);
-  // a line starting with "- " is a dotted sub-point of the rule above it, and
-  // the same marker indented by two or more spaces is a point under that
-  // sub-point. A hand-typed "1." or "2)" at the start of a rule is dropped,
-  // since the list numbers itself.
-  const rulesHTML = (lines, tail = '') => {
+  // Rules (and judging criteria, and the general rules on the home page) are
+  // stored as plain lines. A plain line is a numbered rule or round; a line
+  // starting with "- " is a dotted sub-point of the rule above it, and the same
+  // marker indented by two or more spaces is a point under that sub-point. A
+  // hand-typed "1." or "2)" at the start of a rule is dropped, since the list
+  // numbers itself.
+  const parseRules = lines => {
     const items = [];
     (lines || []).forEach(raw => {
       const line = String(raw).replace(/\t/g, '  ');
@@ -37,9 +38,16 @@
         if (t) items.push({ t, subs: [] });
       }
     });
-    const ul = (subs, cls) => subs.length ? `<ul class="${cls}">${subs.map(x => `<li>${esc(x.t || x)}${x.subs && x.subs.length ? ul(x.subs, 'sub sub2') : ''}</li>`).join('')}</ul>` : '';
-    return `<ol class="rules">${items.map(r => `<li><div class="r-body"><span class="r-t">${esc(r.t)}</span>${ul(r.subs, 'sub')}</div></li>`).join('')}${tail}</ol>`;
+    return items;
   };
+  // Sub-point list: <ul class="sub"> (and "sub sub2" one level down). `wrap` lets
+  // the codex put its text in a <p>.
+  const subList = (subs, cls, wrap = esc) => subs.length
+    ? `<ul class="${cls}">${subs.map(x => `<li>${wrap(x.t || x)}${x.subs && x.subs.length ? subList(x.subs, 'sub sub2', wrap) : ''}</li>`).join('')}</ul>` : '';
+  const rulesHTML = (lines, tail = '') =>
+    `<ol class="rules">${parseRules(lines).map(r => `<li><div class="r-body"><span class="r-t">${esc(r.t)}</span>${subList(r.subs, 'sub')}</div></li>`).join('')}</ol>${tail}`;
+  const judgeHTML = lines =>
+    `<ul class="judge">${parseRules(lines).map(r => `<li><div class="r-body"><span class="r-t">${esc(r.t)}</span>${subList(r.subs, 'sub')}</div></li>`).join('')}</ul>`;
   const poolOf = list => list.reduce((s, c) => s + (Number(c.prize) || 0), 0);
   // Prize amounts are shown only for events that have one (none do in the 2027 brochure).
   const hasPrize = c => (Number(c.prize) || 0) > 0;
@@ -383,6 +391,7 @@
         { n: list.length, suffix: '', label: 'Events & competitions' },
         ...(poolOf(list) > 0 ? [{ n: lakhs(poolOf(list)), prefix: '₹', suffix: 'L', label: 'Total prize pool' }] : [])];
       const P = TN.protocols || { general: [], dayOf: [] };
+      const codexRules = items => `<ol class="codex-list">${parseRules(items).map((r, i) => `<li style="--i:${i}"><span class="mono">§ ${String(i + 1).padStart(2, '0')}</span><div class="c-body"><p>${esc(r.t)}</p>${subList(r.subs, 'c-sub', t => `<p>${esc(t)}</p>`)}</div></li>`).join('')}</ol>`;
       const codexList = items => `<ol class="codex-list">${items.map((t, i) => `<li style="--i:${i}"><span class="mono">§ ${String(i + 1).padStart(2, '0')}</span><p>${esc(t)}</p></li>`).join('')}</ol>`;
       const V = TN.verticals || [], n = V.length;
 
@@ -501,7 +510,7 @@
             <div class="codex-top mono"><span>${icon('lock', 14)} Classified · Participants only</span><span>File ${esc(f.edition)} / TN</span></div>
             <div class="codex-seal" aria-hidden="true">${X.logo()}</div>
             <div class="codex-cols">
-              ${P.general.length ? `<div><h3>General protocols</h3>${codexList(P.general)}</div>` : ''}
+              ${P.general.length ? `<div><h3>General protocols</h3>${codexRules(P.general)}</div>` : ''}
               ${P.dayOf.length ? `<div><h3>On the day</h3>${codexList(P.dayOf)}</div>` : ''}
             </div>
             <p class="codex-foot mono">Unsure about anything? <a href="about.html#contact">Ask the team</a></p>
@@ -691,11 +700,11 @@
           ${sealed ? '' : `<div class="ev-cols" id="rules">
             <div class="ev-panel hud" data-reveal>
               <h2 class="panel-h">Rules & Regulations</h2>
-              ${rulesHTML(c.rules, `<li><div class="r-body"><span class="r-t">Organisers' decisions on scoring and disputes are final.</span></div></li>`)}
+              ${rulesHTML(c.rules, `<p class="rules-note">Organisers' decisions on scoring and disputes are final.</p>`)}
             </div>
             <div class="ev-panel hud" data-reveal style="--d:90ms">
               <h2 class="panel-h">Judging Criteria</h2>
-              ${judging.length ? `<ul class="judge">${judging.map(j => `<li>${esc(j)}</li>`).join('')}</ul>` : '<p class="muted">Judging criteria are announced with the rulebook.</p>'}
+              ${judging.length ? judgeHTML(judging) : '<p class="muted">Judging criteria are announced with the rulebook.</p>'}
             </div>
           </div>`}
 

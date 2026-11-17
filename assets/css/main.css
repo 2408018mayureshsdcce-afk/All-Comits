@@ -663,6 +663,7 @@ body.after-pre .hero .ast-line { transition-delay: .1s; }
 .rules { counter-reset: r; display: flex; flex-direction: column; gap: 12px; }
 .rules li { counter-increment: r; display: flex; gap: 16px; padding: 16px 18px; border: 1px solid var(--line); border-radius: 10px; background: rgba(10, 13, 19, .5); color: var(--soft); }
 .rules li::before { content: counter(r) "."; font-family: var(--f-mono); color: var(--ice); font-size: .9rem; padding-top: 2px; min-width: 1.4em; }
+.rules-note { margin-top: 14px; padding-top: 14px; border-top: 1px solid var(--line); color: var(--muted); font-size: .95em; }
 .rules .r-body { flex: 1; min-width: 0; }
 .rules .r-t { display: block; }
 .rules .sub { list-style: none; margin: 10px 0 0; padding: 0; display: flex; flex-direction: column; gap: 7px; }
@@ -670,6 +671,20 @@ body.after-pre .hero .ast-line { transition-delay: .1s; }
 .rules .sub li::before { content: ""; counter-increment: none; position: absolute; left: 2px; top: .6em; width: 6px; height: 6px; background: var(--ice); border-radius: 1px; min-width: 0; padding: 0; }
 .rules .sub .sub { margin: 7px 0 0; }
 .rules .sub .sub li::before { background: transparent; border: 1px solid var(--ice); }
+/* Judging criteria and the home-page codex share the sub-point look. */
+.judge .r-body { flex: 1; min-width: 0; }
+.judge .r-t { display: block; }
+.judge .sub { list-style: none; margin: 8px 0 0; padding: 0; display: flex; flex-direction: column; gap: 6px; }
+.judge .sub li, .judge .sub li:first-child { display: block; position: relative; padding: 0 0 0 18px; border: 0; color: var(--soft); font-size: .95em; line-height: 1.5; }
+.judge .sub li::before { content: ""; position: absolute; left: 2px; top: .6em; width: 6px; height: 6px; padding: 0; background: var(--gold); border-radius: 1px; font-size: 0; }
+.judge .sub .sub { margin-top: 6px; }
+.judge .sub .sub li::before { background: transparent; border: 1px solid var(--gold); }
+.codex-list .c-body { min-width: 0; }
+.codex-list .c-sub { list-style: none; margin: 8px 0 0; padding: 0; display: flex; flex-direction: column; gap: 6px; }
+.codex-list .c-sub li { display: block; position: relative; padding: 0 0 0 16px; font-size: .94em; }
+.codex-list .c-sub li::before { content: ""; position: absolute; left: 1px; top: .72em; width: 5px; height: 5px; background: var(--gold); opacity: .8; border-radius: 1px; }
+.codex-list .c-sub .sub2 { margin-top: 6px; }
+.codex-list .c-sub .sub2 li::before { background: transparent; border: 1px solid var(--gold); }
 .rules .sub li:hover, .ev-panel .rules .sub li:hover { transform: none; }
 .steps { position: relative; display: flex; flex-direction: column; gap: 26px; padding-left: 8px; }
 .steps::before { content: ""; position: absolute; left: 27px; top: 10px; bottom: 10px; width: 1px; background: linear-gradient(var(--sky), transparent); }

@@ -48,7 +48,7 @@
         { key: 'overview', type: 'textarea', label: 'Description', max: 2000 },
         { key: 'statement', type: 'textarea', label: 'The challenge', max: 4000, hint: 'The problem statement, shown under the description.' },
         { key: 'rules', type: 'rules', label: 'Rules & regulations', hint: 'One line per point. A plain line is a numbered rule or round (1, 2, 3…). Start a line with "- " to make it a dotted sub-point of the rule above it. Indent it two more spaces ("  - ") for a point under a sub-point. Use the buttons to add them.' },
-        { key: 'judging', type: 'list', label: 'Judging criteria', hint: 'One criterion per line.' },
+        { key: 'judging', type: 'rules', label: 'Judging criteria', hint: 'One criterion per line. Start a line with "- " to add a sub-point under the criterion above it (for example the marks split inside a criterion).' },
 
         heading('Coordinators'),
         { key: 'coordinators', type: 'people', label: 'Coordinators', hint: 'One per line: Name | Role | Phone | Email. Roles containing "Faculty" are shown in violet.' },
@@ -163,7 +163,7 @@
     protocols: {
       label: 'Protocols',
       fields: [
-        { key: 'general', type: 'list', label: 'General protocols', hint: 'One per line. Shown in the sealed codex on the home page.' },
+        { key: 'general', type: 'rules', label: 'General protocols', hint: 'Shown in the sealed codex on the home page. A plain line is a numbered section; start a line with "- " to add a point under it.' },
         { key: 'dayOf', type: 'list', label: 'On the day', hint: 'One per line.' },
       ],
     },
