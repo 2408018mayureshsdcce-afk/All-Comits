@@ -1,0 +1,1548 @@
+{
+  "version": 1,
+  "seededAt": "2026-11-12T10:13:10.368Z",
+  "settings": {
+    "fest": {
+      "name": "TechNation",
+      "host": "National Level Tech-Fest",
+      "theme": "Connect. Learn. Transform.",
+      "edition": "2027",
+      "start": "2027-01-08T09:00:00+05:30",
+      "end": "2027-01-09T18:00:00+05:30",
+      "earlyBirdEnds": "2027-01-01T23:59:59+05:30",
+      "phone": "+91 98221 67259",
+      "email": "cs.sdcc@vvm.edu.in",
+      "venueShort": "Shree Damodar College, Margao",
+      "venue": "Shree Damodar Educational Campus, G R Kare Road, Tansor, Comba, Margao, Salcete, Goa 403601",
+      "coords": "15.28° N · 73.96° E",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=Shree+Damodar+College+of+Commerce+%26+Economics%2C+Comba%2C+Margao%2C+Goa+403601",
+      "brochureUrl": ""
+    },
+    "protocols": {
+      "general": [
+        "Participation is by invitation to recognised colleges and institutions across India (UGC / AICTE / State or Central University recognised).",
+        "Open to undergraduate students of BCA, B.Sc. (Computer Science / IT), B.Voc. (Software Technologies / Software Development) or equivalent IT-related programmes. Participants must be bonafide students of their institution.",
+        "One team per college or institution, with 10 to 12 students, all from the same institution. The team registration fee is ₹3,000 per team.",
+        "Teams may assign different participants to different events to avoid schedule conflicts.",
+        "Each team must be accompanied by a Faculty Coordinator and a Student Team Leader, and must confirm participation at least one week before the event dates.",
+        "Outstation teams arrange their own accommodation; the organising committee can give limited assistance on prior request. Local transport between the designated hotel and the venue is arranged by the host institution.",
+        "All official communication, including schedules, rules and updates, goes to the registered email of the Team Leader or Faculty Coordinator."
+      ],
+      "dayOf": [
+        "Produce the deputation letter from your institution and valid college ID cards of all participants at the registration desk on 8 January 2027.",
+        "Every team is assigned a unique Team Name at the venue; use it in all events. Institution identity must not be disclosed.",
+        "No college name, logo, insignia or branded material may be worn, displayed or carried, from desk registration until the results are announced at the valedictory on 9 January 2027.",
+        "Breakfast and lunch on both days are provided by the host institution at the venue.",
+        "Follow the SOPs and campus regulations. Offensive language, misconduct or vulgar behaviour means immediate disqualification of the team.",
+        "Judges' and organising committee decisions are final. Results are declared at the valedictory ceremony, where the Overall Winner and Overall Runner-Up trophies are awarded on cumulative points."
+      ]
+    }
+  },
+  "collections": {
+    "competitions": [
+      {
+        "name": "Reel-O-Tech",
+        "subtitle": "Reel Making Competition",
+        "id": "reel-o-tech",
+        "cat": "Off-stage",
+        "team": "1 per team",
+        "rounds": "Shoot on Day 1 · Submit on Day 2",
+        "theme": "Glimpses of Day 1",
+        "venue": "Within the campus",
+        "date": "2027-01-09",
+        "time": "10:00",
+        "status": "open",
+        "mode": "Onsite",
+        "deadline": "2027-01-01",
+        "prize": 0,
+        "fee": 0,
+        "registerUrl": "",
+        "tagline": "Capture Day 1 on campus and turn it into a reel the whole fest will watch.",
+        "overview": "Participants must create an engaging reel video based on the glimpses of Day 1. The reel must be posted on your personal Instagram account, tagging the college's official account (@damodar_college), and must contain all the moments of Day 1 within the campus.",
+        "statement": "Shoot within the campus on 8 January and submit the finished reel on Day 2 (9 January) at 10 AM sharp.",
+        "rules": [
+          "The reel should be shot within the campus.",
+          "Aspect ratio 1.91:1 to 9:16; frame rate minimum 30 FPS.",
+          "Resolution minimum 720 pixels; length 20–60 seconds.",
+          "Reels must be original and creative, without any copyright violations.",
+          "Participants are solely responsible for any plagiarism issues.",
+          "The reel must be submitted on Day 2 at 10 AM sharp.",
+          "The organising committee reserves the right to disqualify entries for lack of originality, plagiarism or failure to comply with the rules."
+        ],
+        "judging": [
+          "Creativity: The reel must be creative and edited properly.",
+          "Real captures: The reel should contain real moments of Day 1 and is judged on how well the shots are captured."
+        ],
+        "coordinators": [
+          {
+            "name": "Ms. Pratistha Joshi",
+            "role": "Student coordinator",
+            "phone": "9321769043",
+            "email": "2508045.pratistha.sdcce@vvm.edu.in"
+          },
+          {
+            "name": "Mr. Sarth Shanbhag",
+            "role": "Faculty coordinator",
+            "phone": "9975388868",
+            "email": "sarth.shanbhag@vvm.edu.in"
+          }
+        ],
+        "image": "",
+        "kind": "design",
+        "hue": 330,
+        "sealed": false,
+        "revealAt": ""
+      },
+      {
+        "name": "TeamVerse",
+        "subtitle": "Digital Identity Showcase",
+        "id": "teamverse",
+        "cat": "On-stage",
+        "team": "All members in video · 1 at screening",
+        "rounds": "1 round · Video screening",
+        "theme": "Introduce your team, anonymously",
+        "venue": "",
+        "date": "2027-01-08",
+        "time": "",
+        "status": "open",
+        "mode": "Onsite",
+        "deadline": "2027-01-01",
+        "prize": 0,
+        "fee": 0,
+        "registerUrl": "",
+        "tagline": "The opening showcase: introduce your whole team in a 3–4 minute video, without revealing your college.",
+        "overview": "A creative yet technically driven introductory event that challenges teams to present their members and collective talents through a short digital video. It celebrates innovation, collaboration, storytelling and technical finesse while strictly maintaining institutional anonymity, and serves as the opening showcase of TechNation, setting the tone for creativity and excellence.",
+        "statement": "Through this video you need to introduce all the members of the team. Every team member appears in the video, and any one member must be present during the screening. Submit it through the provided submission link (Google Form) by the deadline stated in the brochure (13 January, 2:00 PM); a confirmation email follows by 14 January, 11:30 AM. If a video is rejected for identity disclosure, one final resubmission is permitted by 15 January, 2:00 PM. Missing the resubmission deadline results in zero marks.",
+        "rules": [
+          "Only one video submission per team is allowed.",
+          "The duration of the video should be 3–4 minutes per team; videos that run longer or shorter may be penalised or rejected.",
+          "File name format: TeamVerse_Imaginary_Team_Name.mp4 (an imaginary team name such as Alpha, Beta, etc.).",
+          "Accepted format MP4; maximum file size 200 MB.",
+          "Recommended resolution 1080p (Full HD) and not less than 720p (HD); aspect ratio 16:9.",
+          "Audio must be clear and audible, with no copyrighted background music unless royalty-free and acknowledged.",
+          "The video must not show or mention your college name, logo, uniform or any branding. Any identity reveal leads to rejection.",
+          "The video must be submitted only through the provided submission link, on or before the deadline."
+        ],
+        "judging": [
+          "Team participation and time-duration compliance",
+          "Creativity, originality and the overall impression created by the video",
+          "Video quality, use of special effects and technical presentation"
+        ],
+        "coordinators": [
+          {
+            "name": "Ms. Adaa Shaikh",
+            "role": "Student coordinator",
+            "phone": "7745093223",
+            "email": "2408001.adaa.sdcce@vvm.edu.in"
+          },
+          {
+            "name": "Ms. Girija Gaonkar",
+            "role": "Faculty coordinator",
+            "phone": "8329038979",
+            "email": "girija.gaonkar@vvm.edu.in"
+          }
+        ],
+        "image": "",
+        "kind": "spark",
+        "hue": 200,
+        "sealed": false,
+        "revealAt": ""
+      },
+      {
+        "name": "QBIT",
+        "subtitle": "Innovate & Pitch",
+        "id": "qbit",
+        "cat": "On-stage",
+        "team": "1 per team",
+        "rounds": "1 round · Pitch + mandatory Q&A",
+        "theme": "Technology-driven startup ideas",
+        "venue": "",
+        "date": "",
+        "time": "",
+        "status": "open",
+        "mode": "Onsite",
+        "deadline": "2027-01-01",
+        "prize": 0,
+        "fee": 0,
+        "registerUrl": "",
+        "tagline": "Pitch a technology-driven startup idea that solves a real societal, environmental or industry problem.",
+        "overview": "QBIT inspires undergraduate students to conceptualise, innovate and present technology-driven startup ideas that address contemporary societal, environmental and industry-specific challenges. Participants integrate advanced technological concepts and demonstrate critical thinking, feasibility and entrepreneurial insight in their pitch.",
+        "statement": "Prepare a structured 10–15 slide pitch deck covering: the problem statement; the proposed tech solution (innovation, working model, technological components); target audience or market segment; business / revenue model; prototype or system workflow (optional but strongly encouraged); and a feasibility & impact assessment. Suggested domains include AI & ML, IoT, cloud, cybersecurity, FinTech, HealthTech & MedTech, EdTech, robotics & automation, bioinformatics & biometrics, green/clean tech, Agri-Tech, big data & analytics, mobile and web computing, GPS and location-based services, recommendation systems, smart sensor networks, AR & VR, drones and UAVs, edge computing, wearables, blockchain and NLP.",
+        "rules": [
+          "Ideas must be technology-driven, offering feasible and impactful solutions to real-world issues.",
+          "Only original and innovative ideas are allowed; any form of plagiarism leads to immediate disqualification.",
+          "Topics are allotted based on the registration sequence of institutions. Once registered, teams receive an official communication from the Event Teacher In-charge for topic selection and must confirm their chosen topic by email to the coordinators.",
+          "Email the 10–15 slide presentation to the faculty event coordinator on or before the submission deadline.",
+          "The presentation and pitch must be delivered strictly in English.",
+          "References for data, visuals or statistics may be included, but copying content is prohibited and results in disqualification.",
+          "Participants must adhere strictly to the time limits and maintain professional, disciplined and ethical conduct.",
+          "A mandatory question-and-answer round follows each presentation."
+        ],
+        "judging": [
+          "Innovation & originality — 10 points",
+          "Relevance and potential impact of the problem identified — 10 points",
+          "Technical feasibility & practical application — 10 points",
+          "Quality of presentation and communication skills — 10 points",
+          "Ability to respond effectively during Q&A — 10 points"
+        ],
+        "coordinators": [
+          {
+            "name": "Mr. Blesson Helgi",
+            "role": "Student coordinator",
+            "phone": "9607063505",
+            "email": "2408006.blesson.sdcce@vvm.edu.in"
+          },
+          {
+            "name": "Ms. Urvi Kamat",
+            "role": "Student coordinator",
+            "phone": "952926766",
+            "email": "2508075.urvi.sdcce@vvm.edu.in"
+          },
+          {
+            "name": "Ms. Annette Santimano",
+            "role": "Faculty coordinator",
+            "phone": "9763553379",
+            "email": "annette.santimano@vvm.edu.in"
+          }
+        ],
+        "image": "",
+        "kind": "business",
+        "hue": 45,
+        "sealed": false,
+        "revealAt": ""
+      },
+      {
+        "name": "Code-a-thon",
+        "subtitle": "Rapid AI Build (Hackathon)",
+        "id": "code-a-thon",
+        "cat": "On-stage",
+        "team": "Max 2 per team",
+        "rounds": "1 round · 4-hour build",
+        "theme": "Announced at the start",
+        "venue": "",
+        "date": "",
+        "time": "",
+        "status": "open",
+        "mode": "Onsite",
+        "deadline": "2027-01-01",
+        "prize": 0,
+        "fee": 0,
+        "registerUrl": "",
+        "tagline": "Four hours to build and present a working full-stack web or mobile app with AI tools.",
+        "overview": "A 4-hour challenge where participants build a full-stack web or mobile app using AI tools. Teams plan, develop and present a working prototype based on the given theme. The event promotes creativity, teamwork and the practical use of AI in real-world development.",
+        "statement": "Build a working prototype on the theme announced at the start, within four hours, on your own laptop. Submit a zipped folder of the entire project with a README that states the project title, the tech stack (frontend / backend / database) and how AI tools were used.",
+        "rules": [
+          "The project must be developed during the event and must follow the theme announced at the start.",
+          "Participants are required to bring their own laptops.",
+          "All work must be completed within the 4-hour time limit.",
+          "Copying, reusing pre-built projects or plagiarised work results in disqualification.",
+          "The submitted website is evaluated according to the judging criteria provided.",
+          "Use of mobile phones and USB drives is strictly prohibited.",
+          "Submit a zipped folder of the entire project along with a README file."
+        ],
+        "judging": [
+          "Creativity & originality: uniqueness and innovation in the idea — 15 points",
+          "Relevance to theme: how clearly the project reflects the given theme — 10 points",
+          "Design & user experience: visual appeal, layout, usability and clarity — 10 points",
+          "Technical implementation: quality of code, structure, features and execution — 10 points",
+          "Presentation & explanation: ability to present the work — 5 points"
+        ],
+        "coordinators": [
+          {
+            "name": "Ms. Tanzilla Shaikh",
+            "role": "Student coordinator",
+            "phone": "937305304",
+            "email": "2511031.tanzila.sdcce@vvm.edu.in"
+          },
+          {
+            "name": "Mr. Clayton Araujo",
+            "role": "Faculty coordinator",
+            "phone": "8888494772",
+            "email": "clayton.araujo@vvm.edu.in"
+          }
+        ],
+        "image": "",
+        "kind": "code",
+        "hue": 168,
+        "sealed": false,
+        "revealAt": ""
+      },
+      {
+        "name": "Tech-Persona",
+        "subtitle": "Voices of IT",
+        "id": "tech-persona",
+        "cat": "On-stage",
+        "team": "1 per team",
+        "rounds": "1 round · 4 min speaking + 4 min Q&A",
+        "theme": "Portraying an IT personality",
+        "venue": "",
+        "date": "",
+        "time": "",
+        "status": "open",
+        "mode": "Onsite",
+        "deadline": "2027-01-01",
+        "prize": 0,
+        "fee": 0,
+        "registerUrl": "",
+        "tagline": "Dress up, speak up and become a legend of IT for eight minutes.",
+        "overview": "Portraying IT personalities: four minutes of speaking followed by four minutes of questions from the judges, all answered in the style of the chosen personality.",
+        "statement": "Once a team registers, the Team Leader is sent a list of personality names to choose from. The participant dresses up and presents in the speaking style of the chosen IT personality, using the video clips provided to learn about them.",
+        "rules": [
+          "Once a team registers, the Team Leader is sent options of personality names to choose from.",
+          "The participant has to dress up and present in the speaking style of the chosen IT personality.",
+          "Video clips relevant to the IT personality are provided for learning about and portraying them.",
+          "Each participant gets 4 minutes to present, followed by questions from the judges about the IT personality.",
+          "Questions from the judges must be answered in the same style as the portrayed IT personality."
+        ],
+        "judging": [
+          "Relevant costume and style — 10 points",
+          "Portraying the chosen IT personality (vocabulary and speaking style) — 20 points",
+          "Knowledge about the IT personality — 10 points",
+          "Overall response to questions from the judges — 10 points",
+          "Total — 50 points"
+        ],
+        "coordinators": [
+          {
+            "name": "Mr. Mohammad Ali",
+            "role": "Student coordinator",
+            "phone": "7972155089",
+            "email": "2408019.ali.sdcce@vvm.edu.in"
+          },
+          {
+            "name": "Ms. Sweta P. Shet Verenkar",
+            "role": "Faculty coordinator",
+            "phone": "9923644584",
+            "email": "sweta.verenkar@vvm.edu.in"
+          }
+        ],
+        "image": "",
+        "kind": "lecture",
+        "hue": 28,
+        "sealed": false,
+        "revealAt": ""
+      },
+      {
+        "name": "Tech-Hire",
+        "subtitle": "Simulated Tech Interview",
+        "id": "tech-hire",
+        "cat": "On-stage",
+        "team": "1 per team",
+        "rounds": "Round 1 MCQ test · Round 2 Technical interview (top 5)",
+        "theme": "Tech job roles allotted by lots",
+        "venue": "",
+        "date": "",
+        "time": "",
+        "status": "open",
+        "mode": "Onsite",
+        "deadline": "2027-01-01",
+        "prize": 0,
+        "fee": 0,
+        "registerUrl": "",
+        "tagline": "A simulated technology job interview: 20 MCQs, then a face-to-face panel for the top five.",
+        "overview": "A simulated technology job interview where participants experience a real-world recruitment process. Round 1 – MCQ Test: Participants answer 20 multiple-choice questions based on a randomly allotted tech role, assessing technical knowledge, logical reasoning and problem-solving skills. Round 2 – Technical Interview: The top five participants face a face-to-face interview with a panel of judges, involving technical concepts, practical scenarios and HR/behavioral questions. Evaluation is based on technical knowledge, analytical thinking, problem-solving, communication and professionalism",
+        "statement": "Job roles are allotted using lots: Software Tester (manual testing, Selenium and Postman); Graphic Designer (Canva, Photoshop and the Adobe suite); AI and Data Analytics (Python, machine learning and Power BI); UI/UX Designer (Figma, wireframing and prototyping); SQL Developer (MySQL, joins and database design). Round 1 is 20 MCQs for 20 marks in 20 minutes, subject to the organisers' decision. The top 5 qualify for Round 2, and the final ranking is based on Round 2 scores.",
+        "rules": [
+          "Round 1 – MCQ Test",
+          "- All participants must appear for the MCQ test individually.",
+          "- Participants will be allotted the following job roles using lots:",
+          "  - Software Tester (Manual Testing, Selenium and Postman)",
+          "  - Graphic Designer (Canva, Photoshop and Adobe suite)",
+          "  - AI and Data Analytics (Python, Machine Learning and Power BI)",
+          "  - UI/UX Designer (Figma, wireframing and prototyping)",
+          "  - SQL Developer (MySQL, joins and database design)",
+          "- The test will assess logical reasoning (debugging/coding), analytical thinking, problem-solving ability, and job-role-related knowledge.",
+          "Round 2 – Technical Interview",
+          "- The 5 shortlisted participants from Round 1 will qualify for the technical interview.",
+          "- Each shortlisted participant will attend a face-to-face interview conducted by a panel of judges.",
+          "- The interview will be based on the job role allotted in Round 1.",
+          "- Questions may include technical concepts, problem-solving tasks, practical scenarios, and HR or behavioural questions.",
+          "- Participants will be evaluated on:",
+          "  - Technical knowledge",
+          "  - Problem-solving ability",
+          "  - Communication skills",
+          "  - Confidence and professionalism",
+          "  - Analytical and practical thinking",
+          "- Each participant must answer the questions independently.",
+          "- The final ranking will be based on the Round 2 scores."
+        ],
+        "judging": [
+          "Round 1 — 20 points",
+          "Round 2 — 80 points (technical knowledge, problem-solving, communication, confidence and professionalism, analytical and practical thinking)",
+          "Total — 100 points"
+        ],
+        "coordinators": [
+          {
+            "name": "Ms. Saniya Irdisi",
+            "role": "Student coordinator",
+            "phone": "9634443009",
+            "email": "2508061.saniya.sdcce@vvm.edu.in"
+          },
+          {
+            "name": "Ms. Ankita Naik",
+            "role": "Faculty coordinator",
+            "phone": "9673497991",
+            "email": "ankita.naik@vvm.edu.in"
+          },
+          {
+            "name": "Mr. Amogh Pai Raiturkar",
+            "role": "Faculty coordinator",
+            "phone": "9765855958",
+            "email": "amogh.pairaiturkar@vvm.edu.in"
+          }
+        ],
+        "image": "",
+        "kind": "business",
+        "hue": 215,
+        "sealed": false,
+        "revealAt": ""
+      },
+      {
+        "name": "CodeRush",
+        "subtitle": "Python Debug Duel",
+        "id": "coderush",
+        "cat": "Lab",
+        "team": "1 per team",
+        "rounds": "Round 1 Debugging · Round 2 Coding (top 5)",
+        "theme": "Python",
+        "venue": "",
+        "date": "",
+        "time": "",
+        "status": "open",
+        "mode": "Onsite",
+        "deadline": "2027-01-01",
+        "prize": 0,
+        "fee": 0,
+        "registerUrl": "",
+        "tagline": "Find the bugs on paper, then code the solution in PyCharm.",
+        "overview": "A coding and debugging programming event that tests coding accuracy, logical thinking and debugging efficiency using Python.",
+        "statement": "Round 1 — Debugging / error identification: participants receive a printed Python code file containing errors, identify them and write the corrections. Only the top 5 move on. Round 2 — Coding: a problem statement with an expected result; code it in Python using PyCharm so the output matches. This round decides the Winner and Runner-up.",
+        "rules": [
+          "Round 1: participants receive a printed Python code file containing some errors.",
+          "Identify the errors and write the corrections.",
+          "Only the top 5 participants move to Round 2.",
+          "Round 2: participants are given a problem statement with an expected result.",
+          "Coding must be done in Python using PyCharm; the output must match the expected result.",
+          "Round 2 determines the Winner and the Runner-up."
+        ],
+        "judging": [
+          "Accuracy of error identification and corrections (Round 1)",
+          "Correctness of output against the expected result (Round 2)"
+        ],
+        "coordinators": [
+          {
+            "name": "Ms. Shravani Kalghatkar",
+            "role": "Student coordinator",
+            "phone": "7276397079",
+            "email": "2508067.shravani.sdcce@vvm.edu.in"
+          },
+          {
+            "name": "Mr. Shabir Shaikh Bani",
+            "role": "Student coordinator",
+            "phone": "9356409835",
+            "email": "2508064.shabir.sdcce@vvm.edu.in"
+          },
+          {
+            "name": "Ms. Rama Borkar",
+            "role": "Faculty coordinator",
+            "phone": "9823456324",
+            "email": "rama.borkar@vvm.edu.in"
+          }
+        ],
+        "image": "",
+        "kind": "code",
+        "hue": 200,
+        "sealed": false,
+        "revealAt": ""
+      },
+      {
+        "name": "CineBytes",
+        "subtitle": "Trailer Forge",
+        "id": "cinebytes",
+        "cat": "Lab",
+        "team": "1 per team",
+        "rounds": "1 round",
+        "theme": "A 1–2 minute trailer from a 40-minute film",
+        "venue": "",
+        "date": "",
+        "time": "",
+        "status": "open",
+        "mode": "Onsite",
+        "deadline": "2027-01-01",
+        "prize": 0,
+        "fee": 0,
+        "registerUrl": "",
+        "tagline": "Cut a 40-minute film down to a 1–2 minute trailer in OpenShot.",
+        "overview": "A 40-minute video (preferably animated) is provided. Based on this video, a trailer of 1–2 minutes needs to be created.",
+        "statement": "All required files are given at the venue and there is no internet access. Using only OpenShot Video Editor and the given resources, create a 1–2 minute trailer within the allotted time.",
+        "rules": [
+          "A 40-minute (preferably animated) video is provided; create a 1–2 minute trailer based on it.",
+          "Internet access is not provided during the competition.",
+          "All required files are given at the venue.",
+          "Participants must bring their own audio-listening device (wired or wireless).",
+          "Only OpenShot Video Editor is allowed for creating the trailer.",
+          "No help is provided except in case of hardware or software issues.",
+          "Any unauthorised help or tools lead to disqualification."
+        ],
+        "judging": [
+          "Story flow & selection of scenes",
+          "Creativity & originality",
+          "Editing skills",
+          "Technical quality"
+        ],
+        "coordinators": [
+          {
+            "name": "Mr. Rishabh Bhasker Meatri",
+            "role": "Student coordinator",
+            "phone": "9421311858",
+            "email": "2608044.rishabh.sdcce@vvm.edu.in"
+          },
+          {
+            "name": "Vibhuti Prasad Padhy",
+            "role": "Student coordinator",
+            "phone": "9861935701",
+            "email": "2608075.vibhuthi.sdcce@vvm.edu.in"
+          },
+          {
+            "name": "Mr. Samuel Godinho",
+            "role": "Faculty coordinator",
+            "phone": "8975868065",
+            "email": "samuel.godinho@vvm.edu.in"
+          }
+        ],
+        "image": "",
+        "kind": "design",
+        "hue": 350,
+        "sealed": false,
+        "revealAt": ""
+      },
+      {
+        "name": "UXplorer",
+        "subtitle": "Design with Purpose",
+        "id": "uxplorer",
+        "cat": "Lab",
+        "team": "1 per team",
+        "rounds": "1 round · Wireframes + clickable prototype",
+        "theme": "Provided on the day",
+        "venue": "",
+        "date": "",
+        "time": "",
+        "status": "open",
+        "mode": "Onsite",
+        "deadline": "2027-01-01",
+        "prize": 0,
+        "fee": 0,
+        "registerUrl": "",
+        "tagline": "A real-world case study, Figma, and the clock: design an interface people would actually use.",
+        "overview": "UXplorer is a UI/UX design challenge where creativity meets problem-solving. Participants receive a real-world case study with a design task and, using Figma, craft an intuitive and visually compelling user interface. The event also emphasises prototyping, turning ideas into interactive, user-friendly experiences.",
+        "statement": "Design wireframes and a clickable prototype in Figma for the given theme, audience and problem, from scratch, within the event window.",
+        "rules": [
+          "Participants must have knowledge of Figma.",
+          "Individual participation: no teams, no groups.",
+          "The theme is provided on the day of the event.",
+          "Internet is available for downloading images needed for the design, strictly not for downloading templates.",
+          "No pre-made templates, purchased UI kits or copied full-screen designs are allowed.",
+          "All designs must be created from scratch during the event window and must reflect the given theme, audience and problem.",
+          "Complete the project within the allotted time, which typically includes wireframes and a clickable prototype.",
+          "Follow standard UI/UX practices for user interface and prototyping."
+        ],
+        "judging": [
+          "Creativity & originality — 20",
+          "User experience (flow & functionality) — 20",
+          "User interface (visual quality) — 20",
+          "Prototype & interactions — 20",
+          "Presentation & explanation — 20"
+        ],
+        "coordinators": [
+          {
+            "name": "Ms. Adaa Shaikh",
+            "role": "Student coordinator",
+            "phone": "7745093223",
+            "email": "2408001.adaa.sdcce@vvm.edu.in"
+          },
+          {
+            "name": "Ms. Disha Malvanker",
+            "role": "Faculty coordinator",
+            "phone": "7083261998",
+            "email": "disha.malvankar@vvm.edu.in"
+          }
+        ],
+        "image": "",
+        "kind": "design",
+        "hue": 280,
+        "sealed": false,
+        "revealAt": ""
+      },
+      {
+        "name": "QueryQuest",
+        "subtitle": "From Tables to Triumph",
+        "id": "queryquest",
+        "cat": "Lab",
+        "team": "1 per team",
+        "rounds": "1 round",
+        "theme": "SQL on a given dataset",
+        "venue": "",
+        "date": "",
+        "time": "",
+        "status": "open",
+        "mode": "Onsite",
+        "deadline": "2027-01-01",
+        "prize": 0,
+        "fee": 0,
+        "registerUrl": "",
+        "tagline": "Nested queries, complex sub-queries and a ticking clock.",
+        "overview": "Query Quest is a database event where participants receive a dataset and must write SQL queries, including nested queries, to retrieve the correct data. It tests logical thinking, database knowledge and query-building skills.",
+        "statement": "Write correct SQL for the given dataset, including nested and complex sub-queries, within the time limit, and submit the queries in a Notepad file.",
+        "rules": [
+          "Queries must be written using correct SQL syntax for the given dataset.",
+          "Queries include nested and complex sub-queries.",
+          "Internet access or external help is not allowed.",
+          "The time limit must be strictly followed.",
+          "In case of a tie, accuracy and execution time are considered.",
+          "Queries must be submitted in a Notepad file."
+        ],
+        "judging": [
+          "Accuracy of query and result — 20 points",
+          "Use of correct SQL syntax & logic — 20 points",
+          "Time management — 10 points"
+        ],
+        "coordinators": [
+          {
+            "name": "Ms. Sapna Kumari",
+            "role": "Student coordinator",
+            "phone": "7499140422",
+            "email": "2511030.sapna.sdcce@vvm.edu.in"
+          },
+          {
+            "name": "Ms. Samira Vengurlekar",
+            "role": "Faculty coordinator",
+            "phone": "9527817135",
+            "email": "samira.vengurlekar@vvm.edu.in"
+          }
+        ],
+        "image": "",
+        "kind": "science",
+        "hue": 190,
+        "sealed": false,
+        "revealAt": ""
+      },
+      {
+        "name": "AdCraft",
+        "subtitle": "Prompt the Vision. Create the Impact.",
+        "id": "adcraft",
+        "cat": "Lab",
+        "team": "1 per team",
+        "rounds": "1 round",
+        "theme": "A 1-minute video ad on the given theme",
+        "venue": "",
+        "date": "",
+        "time": "",
+        "status": "open",
+        "mode": "Onsite",
+        "deadline": "2027-01-01",
+        "prize": 0,
+        "fee": 0,
+        "registerUrl": "",
+        "tagline": "Generate every shot with Grok, cut it in OpenShot, and sell the idea in sixty seconds.",
+        "overview": "A creative event that challenges participants to design a digital video advertisement entirely through effective prompting. Using Grok, participants generate visuals based on how clearly and creatively they prompt. It is a test of both creativity and smart AI usage.",
+        "statement": "Create a 1-minute video advertisement on the given theme: generate multiple clips with Grok (grok.com/imagine), combine and edit them in OpenShot Video Editor, and add sound effects only from Pixabay. Save the final ad, all raw clips, audio and exported files in a desktop folder named after your team, and submit a Word document containing every prompt used.",
+        "rules": [
+          "Accounts required: create accounts on Grok (grok.com/imagine), Pixabay (pixabay.com) and OpenShot beforehand.",
+          "Create a 1-minute video advertisement based on the given theme.",
+          "Generate multiple clips using Grok and use OpenShot Video Editor to combine, arrange and edit them into the final advertisement.",
+          "Sound effects only from Pixabay, added through the video editor.",
+          "No other websites, AI tools or external software are permitted.",
+          "Participants must have knowledge of OpenShot video editing software.",
+          "Create a folder on the desktop named after your team and save the final advertisement, raw clips, audio and exported files inside it.",
+          "Submit a Word document containing all prompts used in Grok.",
+          "Any violation of the rules results in immediate disqualification."
+        ],
+        "judging": [
+          "Prompt creativity and quality: clarity, originality and effectiveness of the prompts — 25 points",
+          "Visual output and clip quality: relevance of generated clips to the theme — 25 points",
+          "Editing and technical execution: smooth joins, clean cuts, transitions and sound integration — 25 points",
+          "Message clarity and creativity: strength of the concept and clear communication of the idea — 25 points"
+        ],
+        "coordinators": [
+          {
+            "name": "Mr. Mohammed Ali",
+            "role": "Student coordinator",
+            "phone": "7972155089",
+            "email": "2408019.ali.sdcce@vvm.edu.in"
+          },
+          {
+            "name": "Mr. Muaz Pathan",
+            "role": "Student coordinator",
+            "phone": "9767702818",
+            "email": "2408059.muaz.sdcce@vvm.edu.in"
+          },
+          {
+            "name": "Ms. Sneha Prabhudessai",
+            "role": "Faculty coordinator",
+            "phone": "9765855958",
+            "email": "sneha.prabhudessai@vvm.edu.in"
+          }
+        ],
+        "image": "",
+        "kind": "spark",
+        "hue": 310,
+        "sealed": false,
+        "revealAt": ""
+      },
+      {
+        "name": "PowerBit",
+        "subtitle": "Power the Data. Own the Insights.",
+        "id": "powerbit",
+        "cat": "Lab",
+        "team": "1 per team",
+        "rounds": "1 round · 3 hours",
+        "theme": "Given on the spot",
+        "venue": "",
+        "date": "",
+        "time": "",
+        "status": "open",
+        "mode": "Onsite",
+        "deadline": "2027-01-01",
+        "prize": 0,
+        "fee": 0,
+        "registerUrl": "",
+        "tagline": "Three hours, one dataset, a dashboard with real insights in Power BI.",
+        "overview": "Data Analytics using Power BI is a 3-hour professional competition in which participants analyse datasets, build interactive dashboards and present meaningful insights. It develops industry-aligned analytics competencies while fostering critical thinking, visualisation skills and real-world problem-solving, cultivating future-ready data analysts.",
+        "statement": "Topics, themes and datasets are provided on the spot. Submit a fully functional Power BI report (.pbix) with a PDF export of the dashboard and a brief 150–200 word summary of insights within the 3-hour window. The report should clearly reflect data cleaning, modelling, visualisation and insights.",
+        "rules": [
+          "Participants must report to the venue on time.",
+          "Topics, themes and datasets are provided on the spot.",
+          "The total duration is 3 hours, during which all work must be completed and submitted; late submissions are not evaluated.",
+          "Internet use is restricted to Power BI documentation and DAX references; browsing external dashboards or ready-made templates is prohibited.",
+          "Work only on the dataset provided; external data sources are not allowed.",
+          "Submit the Power BI (.pbix) file and a PDF export before the deadline, with a 150–200 word summary of insights.",
+          "Dashboard designs must be original; plagiarism or pre-built templates mean immediate disqualification.",
+          "Any malpractice, technical manipulation or disturbance during the event leads to disqualification."
+        ],
+        "judging": [
+          "Data cleaning & preparation — 20 points (handling missing values, duplicates and inconsistencies; logical transformation steps)",
+          "Data modelling & DAX usage — 20 points (relationships, model structure and schema; meaningful DAX measures)",
+          "Dashboard design & visualisation quality — 25 points (layout clarity, choice of visuals, colour and readability)",
+          "Insight generation & interpretation — 25 points (accuracy and depth of insights, relevance to the theme, actionable conclusions)",
+          "Interactivity & advanced features — 10 points (slicers, filters, drill-throughs, bookmarks)"
+        ],
+        "coordinators": [
+          {
+            "name": "Ms. Prema M",
+            "role": "Student coordinator",
+            "phone": "7219521813",
+            "email": "2408014.prema.sdcce@vvm.edu.in"
+          },
+          {
+            "name": "Mr. Sameer Patil",
+            "role": "Faculty coordinator",
+            "phone": "7507720245",
+            "email": "sameer.patil@vvm.edu.in"
+          }
+        ],
+        "image": "",
+        "kind": "science",
+        "hue": 52,
+        "sealed": false,
+        "revealAt": ""
+      },
+      {
+        "name": "CypherCell",
+        "subtitle": "Investigate. Connect. Crack",
+        "id": "cyphercell",
+        "cat": "Lab",
+        "team": "2 per team",
+        "rounds": "1 round · 1 hour",
+        "theme": "Crack a digital forensics case",
+        "venue": "",
+        "date": "",
+        "time": "",
+        "status": "open",
+        "mode": "Onsite",
+        "deadline": "2027-01-01",
+        "prize": 0,
+        "fee": 0,
+        "registerUrl": "",
+        "tagline": "Two minds, one hour, a trail of digital clues: crack the case first.",
+        "overview": "Teams of two get exactly one hour to solve a series of digital puzzles and clues that help crack a digital forensics case.",
+        "statement": "Solve the puzzles in sequence on the systems provided. The team that cracks the case first within the hour, with all previous puzzles solved correctly, wins. If no team cracks it, the team that solved the most clues correctly is declared the winner.",
+        "rules": [
+          "Each team must consist of exactly 2 members.",
+          "Each team gets exactly 1 hour to solve a series of digital puzzles/clues that help crack a digital forensics case.",
+          "Calculators, mobile phones or any external gadgets are not allowed.",
+          "Teams must maintain decorum; cheating, brute force or tampering with the systems provided means immediate disqualification.",
+          "The event coordinators may modify rules or terminate participation in case of emergencies, logistics, safety concerns or rule violations."
+        ],
+        "judging": [
+          "The team that cracks the case first within one hour (with all previous puzzles solved correctly) wins.",
+          "If no team cracks the case in time, teams are judged on accuracy in solving and decoding the clues; the team with the most correct solutions wins."
+        ],
+        "coordinators": [
+          {
+            "name": "Ms. Sandra Fernandes",
+            "role": "Student coordinator",
+            "phone": "8412886565",
+            "email": "2408030.sandra.sdcce@vvm.edu.in"
+          },
+          {
+            "name": "Ms. Yugandhara Joshi",
+            "role": "Faculty coordinator",
+            "phone": "9765855958",
+            "email": "yugandhara.joshi@vvm.edu.in"
+          }
+        ],
+        "image": "",
+        "kind": "code",
+        "hue": 150,
+        "sealed": false,
+        "revealAt": ""
+      },
+      {
+        "name": "FIFA 24",
+        "subtitle": "Competitive Kickoff",
+        "id": "fifa-24",
+        "cat": "Gaming",
+        "team": "1 per college",
+        "rounds": "Lots draw · Single-elimination knockout",
+        "theme": "EA Sports FC 24 · Kick-Off mode",
+        "venue": "",
+        "date": "",
+        "time": "",
+        "status": "open",
+        "mode": "Onsite",
+        "deadline": "2027-01-01",
+        "prize": 0,
+        "fee": 0,
+        "registerUrl": "",
+        "tagline": "Kick-Off mode, knockout bracket, one champion.",
+        "overview": "EA Sports FC 24 is a next-generation football simulation featuring HyperMotionV, PlayStyles and the Frostbite engine. With 19,000+ licensed players, 700+ teams and 30+ leagues, it delivers authentic gameplay and modes like Ultimate Team, Career, Clubs and VOLTA.",
+        "statement": "Players for the final round are chosen by drawing lots. All selected players compete in a single-elimination knockout until the champion is decided: two players drawn means a direct final; more players means a bracket with quarter-finals and semi-finals as needed.",
+        "rules": [
+          "Game: EA Sports FC 24 (latest patch); mode: Kick-Off.",
+          "One participant per college; only one account per player.",
+          "Players must be present at the time of the draw and at match start.",
+          "Selection: players for the final round are chosen by drawing lots (random selection).",
+          "Final round: single-elimination matches continue until one champion remains.",
+          "Respect all participants and organisers; no abusive language or unsportsmanlike behaviour.",
+          "The organiser manages the lots draw, group stage and bracket, has the final say on disputes, and may adjust rules before the tournament begins but not mid-match."
+        ],
+        "judging": [
+          "Match results in the knockout bracket"
+        ],
+        "coordinators": [
+          {
+            "name": "Mr. Jaf Soares",
+            "role": "Student coordinator",
+            "phone": "+91 94209 90906",
+            "email": "2511012.jaf.sdcce@vvm.edu.in"
+          },
+          {
+            "name": "Mr. Andre Pacheco",
+            "role": "Faculty coordinator",
+            "phone": "8805351776",
+            "email": "andre.pacheco@vvm.edu.in"
+          }
+        ],
+        "image": "",
+        "kind": "gaming",
+        "hue": 120,
+        "sealed": false,
+        "revealAt": ""
+      },
+      {
+        "name": "Mortal Kombat 11",
+        "subtitle": "Kombat Showdown",
+        "id": "mortal-kombat-11",
+        "cat": "Gaming",
+        "team": "1 per team",
+        "rounds": "Lots draw · Best-of-3 sets · Knockout",
+        "theme": "Versus mode, competitive settings",
+        "venue": "",
+        "date": "",
+        "time": "",
+        "status": "open",
+        "mode": "Onsite",
+        "deadline": "2027-01-01",
+        "prize": 0,
+        "fee": 0,
+        "registerUrl": "",
+        "tagline": "Best of three, first to two rounds, until only one fighter stands.",
+        "overview": "Mortal Kombat 11 is a visceral fighting game with a cinematic story, brutal combat and iconic characters. With customisable variations, stunning visuals and competitive play, it delivers intense battles, fatalities and strategic depth.",
+        "statement": "Players for the final round are drawn by lots. Sets are best of 3 matches (finals optionally best of 5), first to 2 rounds per match, competitive mode enabled. An odd draw forms one round-robin group of three whose top two join the single-elimination bracket; everyone else plays 1v1 knockouts.",
+        "rules": [
+          "Mode: Versus. Only one account per player; players must be present at the draw and at match start.",
+          "Set format: best of 3 matches (first to 2 wins); finals optionally best of 5. Rounds per match: first to 2 (MK11 default).",
+          "Competitive mode enabled (tournament-legal variations, standardised frame data).",
+          "Any character allowed; the winner may switch only after the opponent switches (or winner-lock, organiser's choice).",
+          "Stage select random; stage interactables on (organiser may set off). Timer default.",
+          "No macros or cheats; controller remapping allowed within game settings only.",
+          "Odd number of players: one group of 3 plays a round-robin (best-of-3 sets); the top 2 (wins, then game differential, then head-to-head) join the knockout bracket.",
+          "Final round: single elimination until one champion remains; two players drawn means a direct final.",
+          "Pauses only for legitimate issues (controller disconnect, health or safety); notify the organiser immediately.",
+          "The organiser manages the draw, groups and bracket, has decisive authority on disputes, and may adjust rules before the tournament begins but not mid-match."
+        ],
+        "judging": [
+          "Match results in the group stage and knockout bracket"
+        ],
+        "coordinators": [
+          {
+            "name": "Mr. Jaf Soares",
+            "role": "Student coordinator",
+            "phone": "+91 94209 90906",
+            "email": "2511012.jaf.sdcce@vvm.edu.in"
+          },
+          {
+            "name": "Mr. Andre Pacheco",
+            "role": "Faculty coordinator",
+            "phone": "8805351776",
+            "email": "andre.pacheco@vvm.edu.in"
+          }
+        ],
+        "image": "",
+        "kind": "gaming",
+        "hue": 0,
+        "sealed": false,
+        "revealAt": ""
+      },
+      {
+        "name": "RC Car Gaming",
+        "subtitle": "",
+        "id": "rc-car-gaming",
+        "cat": "Gaming",
+        "team": "1v1 or 2v2, depending on the arena",
+        "rounds": "5-minute matches · Shoot-out tie-breaker · 3 hours",
+        "theme": "RC cars in an enclosed arena",
+        "venue": "Quadrangle",
+        "date": "",
+        "time": "",
+        "status": "open",
+        "mode": "Onsite",
+        "deadline": "2027-01-01",
+        "prize": 0,
+        "fee": 0,
+        "registerUrl": "",
+        "tagline": "Push, flick and rebound the ball into the goal with your RC car.",
+        "overview": "RC cars score goals in an enclosed arena: standard 2v2 or 1v1 depending on arena size and team. Cars push or flick the ball with their chassis and bumpers; a goal is awarded whenever the ball completely crosses the goal line.",
+        "statement": "Matches run for 5 minutes of regulation time. If the score is tied, a 30-second shoot-out follows: the attacker gets 15 seconds to drive from centre and score, each team takes turns (best of 3 shots), and sudden-death rounds decide a winner if still tied.",
+        "rules": [
+          "Standard 2v2 / 1v1 depending on arena size and team.",
+          "No out-of-bounds: the arena is enclosed, so the ball is always live and walls may be used for indirect passes or rebounds. If no walls exist, a defined boundary applies; when the ball crosses it the timer pauses, the ball is reset to the centre and play resumes.",
+          "Scoring: a goal is awarded when the ball completely crosses the goal line. The clock pauses, the ball is reset to the centre circle and play resumes on the referee's whistle.",
+          "Passing & dribbling: cars must push or flick the ball with their chassis or bumpers. Holding, trapping or pinning the ball under the car for more than 3 seconds is stalling.",
+          "Deliberate pinning or sticking the ball against a wall or corner for more than 3 seconds gives the opponent a free kick from the centre; more than 3 offences means disqualification.",
+          "Intentionally trapping or flipping an opponent's RC car upside down results in direct disqualification; unintentional collisions are part of the game.",
+          "If a car flips on its own or suffers a technical failure, the match continues; organisers right the car at the nearest safe moment without stopping the timer.",
+          "Players must be present at the time of the draw and match start."
+        ],
+        "judging": [
+          "Goals scored in 5 minutes of regulation time",
+          "Tie-breaker: 30-second shoot-out, best of 3 shots, then sudden death"
+        ],
+        "coordinators": [
+          {
+            "name": "Mr. Jaf Soares",
+            "role": "Student coordinator",
+            "phone": "+91 94209 90906",
+            "email": "2511012.jaf.sdcce@vvm.edu.in"
+          },
+          {
+            "name": "Mr. Andre Pacheco",
+            "role": "Faculty coordinator",
+            "phone": "8805351776",
+            "email": "andre.pacheco@vvm.edu.in"
+          }
+        ],
+        "image": "",
+        "kind": "robot",
+        "hue": 25,
+        "sealed": false,
+        "revealAt": ""
+      }
+    ],
+    "schedule": [
+      {
+        "title": "Early Bird Registration",
+        "day": "2027-01-08",
+        "cat": "Registration",
+        "start": "08:45",
+        "end": "09:00",
+        "venue": "Main Building · Hall 2",
+        "link": "",
+        "note": "",
+        "id": "cb79d4d239"
+      },
+      {
+        "title": "Regular Registration",
+        "day": "2027-01-08",
+        "cat": "Registration",
+        "start": "09:00",
+        "end": "09:30",
+        "venue": "Main Building · Hall 2",
+        "link": "",
+        "note": "",
+        "id": "a1324d0b0d"
+      },
+      {
+        "title": "Refreshments",
+        "day": "2027-01-08",
+        "cat": "Break",
+        "start": "09:00",
+        "end": "09:30",
+        "venue": "Room F405 / F406, Main Building",
+        "link": "",
+        "note": "",
+        "id": "9efe2fb1f1"
+      },
+      {
+        "title": "Inaugural Ceremony",
+        "day": "2027-01-08",
+        "cat": "Ceremony",
+        "start": "09:45",
+        "end": "10:30",
+        "venue": "Main Building · Hall 1",
+        "link": "",
+        "note": "",
+        "id": "2c8bc5727e"
+      },
+      {
+        "title": "TeamVerse",
+        "day": "2027-01-08",
+        "cat": "Competition",
+        "start": "10:45",
+        "end": "13:30",
+        "venue": "Main Building · Hall 1",
+        "link": "event.html?id=teamverse",
+        "note": "",
+        "id": "d1847a553c"
+      },
+      {
+        "title": "Code-a-thon · Briefing",
+        "day": "2027-01-08",
+        "cat": "Competition",
+        "start": "11:00",
+        "end": "11:30",
+        "venue": "Annex Building · Training Room (Skill Development Center)",
+        "link": "event.html?id=code-a-thon",
+        "note": "",
+        "id": "bde8142784"
+      },
+      {
+        "title": "Surprise Event",
+        "day": "2027-01-08",
+        "cat": "Surprise",
+        "start": "11:00",
+        "end": "13:00",
+        "venue": "Main Building · F401",
+        "link": "",
+        "note": "Open to all · Non-competitive · 11:00 AM onwards",
+        "id": "2dc48bff95"
+      },
+      {
+        "title": "UXplorer",
+        "day": "2027-01-08",
+        "cat": "Competition",
+        "start": "11:00",
+        "end": "13:00",
+        "venue": "Annex Building · Lab 4",
+        "link": "event.html?id=uxplorer",
+        "note": "",
+        "id": "9baccc0db3"
+      },
+      {
+        "title": "RC Car Football Game",
+        "day": "2027-01-08",
+        "cat": "Competition",
+        "start": "11:00",
+        "end": "14:00",
+        "venue": "Quadrangle / OTS",
+        "link": "event.html?id=rc-car-gaming",
+        "note": "",
+        "id": "2e98c877c3"
+      },
+      {
+        "title": "Code-a-thon · Task",
+        "day": "2027-01-08",
+        "cat": "Competition",
+        "start": "11:30",
+        "end": "15:30",
+        "venue": "Annex Building · Training Room (Skill Development Center)",
+        "link": "event.html?id=code-a-thon",
+        "note": "",
+        "id": "9a72faca4e"
+      },
+      {
+        "title": "CineBytes",
+        "day": "2027-01-08",
+        "cat": "Competition",
+        "start": "12:00",
+        "end": "13:00",
+        "venue": "Annex Building · Lab 1",
+        "link": "event.html?id=cinebytes",
+        "note": "",
+        "id": "5533bb0a43"
+      },
+      {
+        "title": "Lunch Break",
+        "day": "2027-01-08",
+        "cat": "Break",
+        "start": "13:00",
+        "end": "14:00",
+        "venue": "Room F405 / F406, Main Building",
+        "link": "",
+        "note": "",
+        "id": "9141d70d72"
+      },
+      {
+        "title": "CodeRush",
+        "day": "2027-01-08",
+        "cat": "Competition",
+        "start": "14:00",
+        "end": "16:00",
+        "venue": "Annex Building · Lab 1",
+        "link": "event.html?id=coderush",
+        "note": "",
+        "id": "8812dfa67c"
+      },
+      {
+        "title": "QBIT",
+        "day": "2027-01-08",
+        "cat": "Competition",
+        "start": "14:00",
+        "end": "17:00",
+        "venue": "Main Building · Hall 1",
+        "link": "event.html?id=qbit",
+        "note": "",
+        "id": "953c37bdc2"
+      },
+      {
+        "title": "Tech-Persona",
+        "day": "2027-01-08",
+        "cat": "Competition",
+        "start": "14:00",
+        "end": "17:00",
+        "venue": "Main Building · Hall 2",
+        "link": "event.html?id=tech-persona",
+        "note": "",
+        "id": "f5000d5624"
+      },
+      {
+        "title": "PowerBit",
+        "day": "2027-01-08",
+        "cat": "Competition",
+        "start": "14:00",
+        "end": "17:00",
+        "venue": "Annex Building · Lab 4",
+        "link": "event.html?id=powerbit",
+        "note": "",
+        "id": "ea1429a0f2"
+      },
+      {
+        "title": "Surprise Event",
+        "day": "2027-01-08",
+        "cat": "Surprise",
+        "start": "14:30",
+        "end": "16:00",
+        "venue": "Main Building · F401",
+        "link": "",
+        "note": "",
+        "id": "2c6ffc50a6"
+      },
+      {
+        "title": "FIFA 24",
+        "day": "2027-01-08",
+        "cat": "Competition",
+        "start": "14:30",
+        "end": "17:30",
+        "venue": "Main Building · F404",
+        "link": "event.html?id=fifa-24",
+        "note": "",
+        "id": "2868765560"
+      },
+      {
+        "title": "Code-a-thon · Evaluation",
+        "day": "2027-01-08",
+        "cat": "Competition",
+        "start": "15:30",
+        "end": "17:30",
+        "venue": "Annex Building · Training Room (Skill Development Center)",
+        "link": "event.html?id=code-a-thon",
+        "note": "",
+        "id": "7638dce088"
+      },
+      {
+        "title": "Refreshments",
+        "day": "2027-01-09",
+        "cat": "Break",
+        "start": "09:00",
+        "end": "09:30",
+        "venue": "Room F405 / F406, Main Building",
+        "link": "",
+        "note": "",
+        "id": "b07a07beff"
+      },
+      {
+        "title": "Tech-Hire",
+        "day": "2027-01-09",
+        "cat": "Competition",
+        "start": "09:30",
+        "end": "11:30",
+        "venue": "Main Building · F403",
+        "link": "event.html?id=tech-hire",
+        "note": "",
+        "id": "252eae0d81"
+      },
+      {
+        "title": "Surprise Event",
+        "day": "2027-01-09",
+        "cat": "Surprise",
+        "start": "09:30",
+        "end": "12:00",
+        "venue": "Main Building · Hall 1",
+        "link": "",
+        "note": "",
+        "id": "8206df17f9"
+      },
+      {
+        "title": "Reel-O-Tech",
+        "day": "2027-01-09",
+        "cat": "Competition",
+        "start": "09:30",
+        "end": "12:00",
+        "venue": "Main Building · F401",
+        "link": "event.html?id=reel-o-tech",
+        "note": "Online submission deadline · 10:30 AM",
+        "id": "625df8a473"
+      },
+      {
+        "title": "Mortal Kombat 11",
+        "day": "2027-01-09",
+        "cat": "Competition",
+        "start": "09:30",
+        "end": "12:00",
+        "venue": "Main Building · F404",
+        "link": "event.html?id=mortal-kombat-11",
+        "note": "",
+        "id": "13aa3bb43a"
+      },
+      {
+        "title": "AdCraft",
+        "day": "2027-01-09",
+        "cat": "Competition",
+        "start": "10:00",
+        "end": "11:00",
+        "venue": "Annex Building · Lab 2",
+        "link": "event.html?id=adcraft",
+        "note": "",
+        "id": "d2ba43a728"
+      },
+      {
+        "title": "CypherCell",
+        "day": "2027-01-09",
+        "cat": "Competition",
+        "start": "10:00",
+        "end": "11:00",
+        "venue": "Annex Building · Lab 4",
+        "link": "event.html?id=cyphercell",
+        "note": "",
+        "id": "481dfa42be"
+      },
+      {
+        "title": "QueryQuest",
+        "day": "2027-01-09",
+        "cat": "Competition",
+        "start": "10:00",
+        "end": "12:00",
+        "venue": "Annex Building · Lab 1",
+        "link": "event.html?id=queryquest",
+        "note": "",
+        "id": "7975293a9d"
+      },
+      {
+        "title": "Lunch Break",
+        "day": "2027-01-09",
+        "cat": "Break",
+        "start": "13:00",
+        "end": "14:00",
+        "venue": "Room F405 / F406, Main Building",
+        "link": "",
+        "note": "",
+        "id": "4d75a8b4f9"
+      },
+      {
+        "title": "Valedictory & Prize Distribution",
+        "day": "2027-01-09",
+        "cat": "Ceremony",
+        "start": "14:30",
+        "end": "16:30",
+        "venue": "Main Building · Hall 1",
+        "link": "",
+        "note": "",
+        "id": "9d34d5bee5"
+      }
+    ],
+    "zonals": [],
+    "sponsors": [],
+    "team": [
+      {
+        "name": "Mr. Sumit Kumar",
+        "role": "Faculty Coordinator · +91 98221 67259",
+        "group": "Faculty Coordinators",
+        "dept": "Department of Computer Science",
+        "email": "",
+        "linkedin": "",
+        "photo": "",
+        "id": "b9ee4d84a0"
+      },
+      {
+        "name": "Mr. Ramkrishna Reddy",
+        "role": "Faculty Co-coordinator · +91 88065 72120",
+        "group": "Faculty Coordinators",
+        "dept": "Department of Computer Science",
+        "email": "",
+        "linkedin": "",
+        "photo": "",
+        "id": "be1f72b0f6"
+      },
+      {
+        "name": "Ms. Shweta Sahakari",
+        "role": "TechNation Coordinator · +91 77219 64935",
+        "group": "Student Coordinators",
+        "dept": "",
+        "email": "",
+        "linkedin": "",
+        "photo": "",
+        "id": "d06237ceae"
+      },
+      {
+        "name": "Ms. Praditi Naik",
+        "role": "TechNation Co-coordinator · +91 93221 53078",
+        "group": "Student Coordinators",
+        "dept": "On-stage Events In-charge",
+        "email": "",
+        "linkedin": "",
+        "photo": "",
+        "id": "e0f4271641"
+      },
+      {
+        "name": "Ms. Pooja Chavan",
+        "role": "Core Team",
+        "group": "Core Team",
+        "dept": "",
+        "email": "",
+        "linkedin": "",
+        "photo": "",
+        "id": "8e2d157218"
+      },
+      {
+        "name": "Ms. Ruhifaraz Noorbadsha",
+        "role": "Core Team",
+        "group": "Core Team",
+        "dept": "",
+        "email": "",
+        "linkedin": "",
+        "photo": "",
+        "id": "aa67155822"
+      },
+      {
+        "name": "Mr. Mayuresh Chari",
+        "role": "Core Team",
+        "group": "Core Team",
+        "dept": "",
+        "email": "",
+        "linkedin": "",
+        "photo": "",
+        "id": "7ffe6731ce"
+      },
+      {
+        "name": "Mr. Seval Naik",
+        "role": "Core Team",
+        "group": "Core Team",
+        "dept": "",
+        "email": "",
+        "linkedin": "",
+        "photo": "",
+        "id": "02b1325b33"
+      },
+      {
+        "name": "Mr. Shweth Naik",
+        "role": "Core Team",
+        "group": "Core Team",
+        "dept": "",
+        "email": "",
+        "linkedin": "",
+        "photo": "",
+        "id": "1107d0793c"
+      },
+      {
+        "name": "Mr. Sairaj Alve",
+        "role": "Core Team",
+        "group": "Core Team",
+        "dept": "",
+        "email": "",
+        "linkedin": "",
+        "photo": "",
+        "id": "b9968bc9a5"
+      },
+      {
+        "name": "Mr. Jeetesh Naik",
+        "role": "Core Team",
+        "group": "Core Team",
+        "dept": "",
+        "email": "",
+        "linkedin": "",
+        "photo": "",
+        "id": "63c7531e69"
+      },
+      {
+        "name": "Ms. Joyce",
+        "role": "Core Team",
+        "group": "Core Team",
+        "dept": "",
+        "email": "",
+        "linkedin": "",
+        "photo": "",
+        "id": "a00f367cf6"
+      },
+      {
+        "name": "Ms. Kamakshi Raikar",
+        "role": "Core Team",
+        "group": "Core Team",
+        "dept": "",
+        "email": "",
+        "linkedin": "",
+        "photo": "",
+        "id": "a2bf8f312a"
+      },
+      {
+        "name": "Mr. Jaf Soares",
+        "role": "Core Team",
+        "group": "Core Team",
+        "dept": "",
+        "email": "",
+        "linkedin": "",
+        "photo": "",
+        "id": "796f997983"
+      },
+      {
+        "name": "Mr. Suraj Maurya",
+        "role": "Core Team",
+        "group": "Core Team",
+        "dept": "",
+        "email": "",
+        "linkedin": "",
+        "photo": "",
+        "id": "1b765ea690"
+      }
+    ],
+    "gallery": [
+      {
+        "caption": "Code-a-thon in progress",
+        "cat": "Competitions",
+        "year": 2026,
+        "src": "assets/gallery/hackathon-1.jpg",
+        "id": "6c8826bb01"
+      },
+      {
+        "caption": "Inaugural session",
+        "cat": "Ceremony",
+        "year": 2026,
+        "src": "assets/gallery/keynote-1.jpg",
+        "id": "aaafd06852"
+      },
+      {
+        "caption": "Gaming finals",
+        "cat": "Gaming",
+        "year": 2026,
+        "src": "assets/gallery/esports-1.jpg",
+        "id": "7f4343ef93"
+      },
+      {
+        "caption": "Lab events",
+        "cat": "Lab events",
+        "year": 2026,
+        "src": "assets/gallery/workshop-1.jpg",
+        "id": "93af2e0939"
+      },
+      {
+        "caption": "Valedictory ceremony",
+        "cat": "Ceremony",
+        "year": 2026,
+        "src": "assets/gallery/ceremony-1.jpg",
+        "id": "c16481c3a1"
+      },
+      {
+        "caption": "Team huddle",
+        "cat": "Competitions",
+        "year": 2025,
+        "src": "assets/gallery/hackathon-2.jpg",
+        "id": "b5f62d9836"
+      },
+      {
+        "caption": "Trophy presentation",
+        "cat": "Ceremony",
+        "year": 2025,
+        "src": "assets/gallery/ceremony-2.jpg",
+        "id": "94e45fa379"
+      },
+      {
+        "caption": "On-stage events",
+        "cat": "Competitions",
+        "year": 2025,
+        "src": "assets/gallery/esports-2.jpg",
+        "id": "6130e8c6ed"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "When and where is TechNation 2027?",
+        "a": "TechNation 2027 runs {dates} at {venue}. All events are conducted offline on the campus.",
+        "id": "ae52c7680c"
+      },
+      {
+        "q": "Who can participate?",
+        "a": "Participation is by invitation to recognised colleges and institutions across India. It is open to undergraduate students of BCA, B.Sc. (Computer Science / IT), B.Voc. (Software Technologies / Software Development) or equivalent IT-related programmes, who are bonafide students of their institution.",
+        "id": "50178e27e0"
+      },
+      {
+        "q": "How many students can a college send?",
+        "a": "One team per college or institution, with 10 to 12 students, all from the same institution. Teams may assign different participants to different events to avoid schedule clashes. Each team must be accompanied by a Faculty Coordinator and a Student Team Leader.",
+        "id": "d2602c11e1"
+      },
+      {
+        "q": "What does it cost?",
+        "a": "The team registration fee is ₹3,000 per team and covers all events. Pay by bank transfer to VVMS Shree Damodar College of Comm. & Eco, HDFC Bank, Goa Margao branch, account number 50100150767879, IFSC HDFC0000037.",
+        "id": "6b15056396"
+      },
+      {
+        "q": "How do we register?",
+        "a": "Register your team through this website and confirm participation at least one week before the event dates. For queries write to cs.sdcc@vvm.edu.in or call the faculty coordinators, Mr. Sumit Kumar (+91 98221 67259) or Mr. Ramkrishna Reddy (+91 88065 72120).",
+        "id": "40f04ee0d7"
+      },
+      {
+        "q": "What do we need to bring on the day?",
+        "a": "A deputation letter issued by your institution and valid college ID cards of all participants, to be produced at the registration desk on 8 January 2027. Laptops are needed for Code-a-thon and an audio-listening device for CineBytes.",
+        "id": "628f281956"
+      },
+      {
+        "q": "Why can't we show our college name?",
+        "a": "To keep evaluation fair and unbiased. Every team receives a unique Team Name at the venue, and no college name, logo, insignia or branded material may be worn, displayed or carried until the results are announced at the valedictory on 9 January. Violations can mean penalties or disqualification.",
+        "id": "a2c5779706"
+      },
+      {
+        "q": "Is accommodation available?",
+        "a": "Accommodation is the responsibility of the participating team, but the organising committee can provide limited assistance and guidance on prior request. Local transport between the designated hotel and the venue is arranged by the host, and breakfast and lunch are provided on both days.",
+        "id": "1256750791"
+      },
+      {
+        "q": "What do winners get?",
+        "a": "First and second prize winners of each event receive trophies and e-certificates (or printed certificates). Points are awarded for participation and positions, and the teams with the highest cumulative points receive the Overall Winner and Overall Runner-Up trophies at the valedictory ceremony.",
+        "id": "5a3a243c3b"
+      },
+      {
+        "q": "How will we receive updates?",
+        "a": "All official communication, including event schedules, rules and announcements, is sent to the registered email of the Team Leader or Faculty Coordinator. Event-specific instructions are shared before each event starts.",
+        "id": "e5059fcd34"
+      }
+    ]
+  },
+  "submissions": []
+}
